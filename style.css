@@ -1,9 +1,9 @@
 h1 {
-  text-color: green;
+  color: green;
 }
 
-h2 {
-  outline-color: rgb(250 30 70);
+body {
+  background: rgb(250 30 70);
 }
 
 
