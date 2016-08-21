@@ -3,7 +3,9 @@ h1 {
 }
 
 body {
-  background: rgb(250 30 70);
+  background-image: url(July2007.jpg);
+  display: inline-block;
+  text-align: center;
 }
 
 
