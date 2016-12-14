@@ -1,0 +1,10 @@
+body {
+  background-image: url('./pics/birchBackground.jpg');
+  background-size: cover;
+}
+#aboutMe {
+  background-image: url('./pics/Profile.jpeg');
+  height: 247px;
+  width: 344px;
+
+}
