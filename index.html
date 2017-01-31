@@ -14,10 +14,10 @@
       <nav id="navBar" style= "text-align: center">
         <ul id="navList" style= "background-color: white; color: black; margin: auto; text-align: center; padding-left: 0px;">
           <li class="liItem" style= "text-decoration: none; display: inline-flex; padding-right: .5rem;">
-            <a href="#welcomeEDR">Welcome</a>
+            <a href="#welcomeNEF">Welcome</a>
           </li>
           <li class="liItem" style= "text-decoration: none; display: inline-flex; padding: .5rem;">
-            <a href="#aboutEDR">About</a>
+            <a href="#aboutNEF">About</a>
           </li>
           <li class="liItem" style= "text-decoration: none; display: inline-flex; padding: .5rem;">
             <a href="#projects">Projects</a>
@@ -28,13 +28,15 @@
         </ul>
       </nav>
     </div>
-    <div id="welcome" style= "margin: auto; font-family: 'Noto Sans', sans-serif;"><a NAME="welcomeNEF"></a>
+    <div id="welcome" style= "margin: auto; font-family: 'Noto Sans', sans-serif; padding:auto;"><a NAME="welcomeNEF"></a>
       <h2 class="title" style= "background-color: black; color: white; margin: auto;">Welcome</h2>
-      <div id="welcomeInside" style= "background-color: white; color: black; margin: auto;">
-        <p id="event" style= "margin: auto; font-size: 4rem;">SPACE FOR IMAGE OR MESSAGE</p>
+      <div id="welcomeInside" style= "background-color: white; color: black; margin: auto; padding: auto;">
+        <p id="event" style= "margin: auto; padding: auto; height: 300px;">
+          <img id="birchBark" style="width: 900px; height: 300px; margin: 0rem; padding: 0rem;" label="bark" src="./stylesheets/pics/birchBark.jpg">
+        </p>
       </div>
     </div>
-    <div id="nefAbout" style= "margin: auto; font-family: 'Noto Sans', sans-serif;"><a NAME="aboutNEF"></a>
+    <div id="nefAbout" style= "margin: auto; font-family: 'Noto Sans', sans-serif; background-color: white;"><a NAME="aboutNEF"></a>
       <h2 class="title" style= "background-color: black; color: white; margin: auto;">About</h2>
       <div id="aboutInside" style= "background-color: white; color: black; margin: auto;">
         <p class="neil" style= "width: 700px; text-align: left; margin: auto; padding-top: 1rem; padding-bottom: 1rem;">
@@ -53,14 +55,14 @@
         </p>
       </div>
     </div>
-    <div id="projects" style="font-family: 'Noto Sans', sans-serif;"><a NAME="projects"></a>
+    <div id="projects" style="font-family: 'Noto Sans', sans-serif; margin: auto; background-color: white;"><a NAME="projects"></a>
       <h2 class="title" style= "background-color: black; color: white; margin: auto;">Projects</h2>
       <div id="pInside" style= "background-color: white; color: black; margin: auto;">
         <p class="neil" style= "width: 700px; text-align: left; margin: auto; padding-top: 1rem; padding-bottom: 1rem;">
           <a href="https://github.com/nferner/farmers_markets_ny">
             <img id="farmersMarket" style= "width: 341px; height: 250px; float: left; margin-right: 15px;" label="Market" src="./stylesheets/pics/NYFarmersMarket.png">
           </a>
-          This application, as its name implies, renders all the Farmers Market locations in New York State. Each market is represented by a marker on the google map.
+            This application, as its name implies, renders all the Farmers Market locations in New York State. Each market is represented by a marker on the google map.
           <br>
             To build this application I utilized:
             <ul style="margin-top: -1rem; text-align: left; list-style: none;">
@@ -73,45 +75,42 @@
             </ul>
           </br>
         </p>
+        <p class="neil" style= "width: 700px; text-align: left; margin: auto; padding-top: 1rem; padding-bottom: 1rem;">
+          <a href="https://github.com/nferner/project2">
+            <img id="myPlaylist" style= "width: 323px; height: 250px; float: left; margin-right: 15px;" label="MyPlaylist" src="./stylesheets/pics/MyPlaylist.png">
+          </a>
+          The "MyPlaylist" app was inspired by my need to start creating a wedding playlist. A relatively simple application, MyPlaylist was designed for the user to create, edit, save and delete songs from the playlist they created.
+          <br>
+            The user can register and login to access their dashboard and playlists.
+          </br>
+          <br>
+            To build this application I utilized:
+            <ul style="margin-top: -1rem; text-align: left; list-style: none;">
+              <li>- Javascript</li>
+              <li>- Google's Firebase</li>
+              <li>- React.js</li>
+              <li>- Node.js</li>
+              <li>- HTML & CSS</li>
+            </ul>
+          </br>
+        </p>
       </div>
     </div>
-    <div id="pInside" style= "background-color: white; color: black; margin: auto; padding-top: 0rem;">
-      <p class="neil" style= "width: 700px; text-align: left; margin: auto; padding-top: 1rem; padding-bottom: 1rem;">
-        <a href="https://github.com/nferner/project2">
-          <img id="myPlaylist" style= "width: 323px; height: 250px; float: left; margin-right: 15px;" label="MyPlaylist" src="./stylesheets/pics/MyPlaylist.png">
-        </a>
-        The "MyPlaylist" app was inspired by my need to start creating a wedding playlist. A relatively simple application, MyPlaylist was designed for the user to create, edit, save and delete songs from the playlist they created.
-        <br>
-          The user can register and login to access their dashboard and playlists.
-        </br>
-        <br>
-          To build this application I utilized:
-          <ul style="margin-top: -1rem; text-align: left; list-style: none;">
-            <li>- Javascript</li>
-            <li>- Google's Firebase</li>
-            <li>- React.js</li>
-            <li>- Node.js</li>
-            <li>- HTML & CSS</li>
-          </ul>
-        </br>
-      </p>
-    </div>
-  </div>
-  <div id="nefContact" style="font-family: 'Noto Sans', sans-serif;"><a NAME="contactNEF"></a>
-    <h2 class="title" style= "background-color: black; color: white; margin: auto;">Contact</h2>
-    <div id="aboutInside" style= "background-color: white; color: black; margin: auto; font-family: 'Montserrat', sans-serif;">
-      <p class="eiffel" style= "width: 700px; text-align: left; margin: auto; padding-bottom: 1rem;">
-        <div style="margin-left: -33rem;"><a href="mailto:n.e.ferner@gmail.com"> N.E.Ferner@gmail.com</a>
-        </div>
-        <div style="margin-left: -34rem; margin-top: 1rem;">
-          <a href="https://www.linkedin.com/in/neil-ferner-81701015/"><img src="./stylesheets/pics/linkedIn.png">
-          </a>
-        </div>
-        <div style="margin-left: -35rem; margin-top: 1rem; margin-bottom: 1rem;">
-          <a href="https://github.com/nferner"><img src="./stylesheets/pics/GitHubLogo.png">
-          </a>
+    <div id="nefContact" style="font-family: 'Noto Sans', sans-serif; padding-top: 0rem; margin-top: -1rem;"><a NAME="contactNEF"></a>
+      <h2 class="title" style= "background-color: black; color: white; margin: auto;">Contact</h2>
+      <div id="aboutInside" style= "background-color: white; color: black; margin: auto; font-family: 'Montserrat', sans-serif;">
+        <p class="eiffel" style= "width: 700px; text-align: left; margin: auto; padding-bottom: 1rem;">
+          <div style="margin-left: -33rem;"><a href="mailto:n.e.ferner@gmail.com"> N.E.Ferner@gmail.com</a>
+          </div>
+          <div style="margin-left: -34rem; margin-top: 1rem;">
+            <a href="https://www.linkedin.com/in/neil-ferner-81701015/"><img src="./stylesheets/pics/linkedIn.png">
+            </a>
+          </div>
+          <div style="margin-left: -35rem; margin-top: 1rem; margin-bottom: 1rem;">
+            <a href="https://github.com/nferner"><img src="./stylesheets/pics/GitHubLogo.png">
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </body>
+    </body>
   </html>
